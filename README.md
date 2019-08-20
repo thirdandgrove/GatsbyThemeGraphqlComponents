@@ -6,14 +6,14 @@ components for showing and updating graphql code in gatsby themes
 
 ## Install
 
-`yarn add GatsbyThemeGraphqlComponents`
+`yarn add gatsby-graphql-components`
 
 ## Usage
 
 ```javascript
-import { Code, LiveGraphql } from 'GatsbyThemeGraphqlComponents';
+import { Code, LiveGraphql } from 'gatsby-graphql-components';
 
-import 'GatsbyThemeGraphqlComponents/prism.css';
+import 'gatsby-graphql-components/prism.css';
 ```
 
 Code Component:
@@ -21,7 +21,7 @@ Code Component:
 ```javascript
 <Code
 code={'import React from 'react';
-  import { Code, LiveGraphql } from 'GatsbyThemeGraphqlComponents'
+  import { Code, LiveGraphql } from 'gatsby-graphql-components'
 
   function App() {
     return (
